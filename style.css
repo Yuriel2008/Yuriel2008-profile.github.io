@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(234, 232, 232);
+    background-image: url(morning-image.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 18px;
+    align-items: center;
+}
+
+.profile-card {
+    text-align: center;
+    background-color: white;
+    max-width: 600px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.profile-card:hover {
+    transform: scale(1.02);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.profile-pic {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border: 5px solid #1a3d67;
+    margin-bottom: 21px;
+    object-fit: cover;
+}
+
+.name {
+    font-size: 2.30rem;
+    margin: 0;
+}
+
+.title {
+    margin: 6px 0 17px 0;
+    font-size: 19.2px;
+    color: gray;
+    font-weight: 540;
+}
+
+.bio {
+    font-size: 16px;
+    /* The font-size measurement is that 1rem = to 16px */
+    line-height: 1.5;
+    color: rgb(88, 87, 87);
+    margin-bottom: 17px;
+
+}
+
+.social-links {
+    font-size: 20px;
+    margin: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    /* overflow: auto; */
+}
+
+.social-links a {
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 12px;
+    padding: 5px;
+}
